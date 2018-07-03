@@ -1,0 +1,140 @@
+/* media query min-width 500px */
+
+/* Recommended addition to prevent content extending beyond viewport */
+img {
+  box-sizing: border-box;
+  max-width: 95%;
+  margin: 5px;
+}
+
+/* borders for editing
+
+div {
+  border: dashed 2px red;
+}
+*/
+
+/* flexbox styling */
+.content-box {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 500px;
+  display: -webkit-flex;
+  margin: 20px;
+}
+.page-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.page-title {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.welcome-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.featured-work {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.featured-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.featured-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.featured-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.social-media {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 40px;
+}
+
+/* text styling */
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  color: #000000;
+  margin: 5px;
+}
+h2 {
+  font-size: 25px;
+  font-family: 'Dosis', sans-serif;
+  color: #5f6060;
+  margin: 5px;
+}
+h3 {
+  color: #000000;
+  font-family: 'Dosis', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+p.project-title {
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+  font-size: 25px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Link styling
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+  font-size: 25px;
+  color: #5f6060;
+  text-decoration: none;
+}
+a:hover {
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+  font-size: 25px;
+  color: black;
+  transition: .5s;
+}
+*/
+a.social-links:hover {
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+  font-size: 25px;
+  color: black;
+  transition: .5s;
+}
+a.social-links {
+  text-align: center;
+  font-family: 'Open sans', sans-serif;
+  font-size: 15px;
+  color: #5f6060;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+/* Hover effect for images*/
+
+.featured-image:hover {
+  border-radius: 0;
+  opacity: 0.7;
+  transition: .05s;
+}

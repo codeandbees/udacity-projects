@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- metadata tags added as suggested by reviewer -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=900, initial-scale=1.0">
+    <title>dorothy joy dev</title>
+
+    <!-- css links & media queries here -->
+    <link rel="stylesheet" media="screen and (max-width:499px)" href="css/p1_under500.css">
+    <link rel="stylesheet" media="screen and (min-width:500px)" href="css/p1_over500.css">
+    <link rel="stylesheet" media="screen and (min-width:700px)" href="css/p1_over700.css">
+    <link rel="stylesheet" media="screen and (min-width:900px)" href="css/p1_over900.css">
+
+    <!-- fonts linked here -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Dosis:200|Open+Sans:300" rel="stylesheet">
+
+    <!-- javascript link here -->
+
+</head>
+
+<body>
+    <!--first div contains all content for flexbox-->
+    <div class="content-box">
+        <!--flexbox 1-->
+        <header>
+            <div class="page-header">
+                <div class="page-logo">
+                    <img class="portfolio-logo" src="http://res.cloudinary.com/djdev/image/upload/v1526147182/portfolio_logo.png" alt="dj dev logo">
+                </div>
+                <!--flexbox 1a-->
+                <div class="page-title">
+                    <h1>Dorothy Joy</h1>
+                    <h2>front end web developer</h2>
+                </div>
+            </div>
+        </header>
+
+        <!--flexbox 2-->
+        <main>
+            <div class="welcome-box">
+                <img class="about-me" src="http://res.cloudinary.com/djdev/image/upload/v1526858473/aboutme.png" alt="about me">
+            </div>
+            <!--flexbox 3-->
+            <div class="projects">
+                <h3>Featured Work</h3>
+            </div>
+            <!--flexbox 3a-->
+            <div class="featured-work">
+                <!--Project 1-->
+                <div class="featured-one">
+                    <a href="https://codepen.io/glitterforce/pen/MrGzYm">
+                        <img class="featured-image" id="project-article" src="http://res.cloudinary.com/djdev/image/upload/v1526147182/image_placeholder.png" alt="html article mockup">
+                    </a>
+                    <p class="project-title">HTML Article Mockup
+                        <br>(HTML)</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="featured-two">
+                    <a href="https://codepen.io/glitterforce/pen/opmppG">
+                        <img class="featured-image" src="http://res.cloudinary.com/djdev/image/upload/v1526846701/otherWork_condorCard.png" alt="animal trading card">
+                    </a>
+                    <p class="project-title">Animal Trading Card
+                        <br>(HTML + CSS)</p>
+                </div>
+                <!--Project 3-->
+                <div class="featured-three">
+                    <a href="https://codepen.io/glitterforce/pen/jzKvEq">
+                        <img class="featured-image" src="http://res.cloudinary.com/djdev/image/upload/v1526147182/image_placeholder.png" alt="pixel art maker">
+                    </a>
+                    <p class="project-title">Pixel Art Maker
+                        <br>(HTML + CSS + jQuery)</p>
+                </div>
+            </div>
+        </main>
+
+        <div class="social-media">
+            <footer>
+                <a class="social-links" href="">Instagram</a>
+                <a class="social-links" href="">Twitter</a>
+                <a class="social-links" href="">Codepen</a>
+                <a class="social-links" href="">GitHub</a>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
